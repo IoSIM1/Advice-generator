@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  overflow-x: hidden;
+  font-family: "Manrope", sans-serif;
+}
+body {
+  background-color: hsl(218, 23%, 16%);
+}
+
+.center-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.advice-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: hsl(217, 19%, 24%);
+  width: 50rem;
+  margin: 0 auto;
+  padding: 3.2rem 4.8rem 0 4.8rem;
+}
+
+.advice-number {
+  font-size: 1.6rem;
+  color: hsl(150, 100%, 66%);
+  margin-bottom: 2rem;
+  letter-spacing: 0.35rem;
+}
+.advice-text {
+  font-size: 2.6rem;
+  color: hsl(193, 38%, 86%);
+  text-align: center;
+  margin-bottom: 3.5rem;
+  line-height: 1.3;
+}
+
+.pattern-img {
+  width: 100%;
+}
+.dice-img {
+  transform: translateY(275%);
+  z-index: 1000;
+}
+
+.circle {
+  height: 5.5rem;
+  width: 5.5rem;
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 50%;
+  transform: translateY(50%);
+}
